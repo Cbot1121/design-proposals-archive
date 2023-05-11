@@ -65,7 +65,7 @@ This affects the build-release tools. Fortunately, this is quite straightforward
 Since Kubernetes' release and build jobs run on `linux/amd64`, binaries have to be cross-compiled and Docker images should be cross-built.
 Builds should be run in a Docker container in order to get reproducible builds; and `gcc` should be installed for all platforms inside that image (`kube-cross`)
 
-All released binaries should be uploaded to `https://storage.googleapis.com/kubernetes-release/release/${version}/bin/${os}/${arch}/${binary}`
+All released binaries should be uploaded to `https://dl.k8s.io/release/${version}/bin/${os}/${arch}/${binary}`
 
 This is a fairly long topic. If you're interested how to cross-compile, see [details about cross-compilation](#cross-compilation-details)
 
