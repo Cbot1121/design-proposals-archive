@@ -8,4 +8,4 @@ the Kubernetes project.
 For current Kubernetes Enhancement Proposals, see the [kubernetes/enhancements] repo.
 
 
-[kubernetes/enhancements]: https://github.com/kubernetes/enhancements/
+[kubernetes/enhancements]: https://github.com/kubernetes/enhancements
